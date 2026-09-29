@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Barbearia Manchester | Barbearia em Joinville - SC</title>
+  <meta name="description" content="Barbearia Manchester em Joinville - SC. Conheça o espaço, acompanhe nossos trabalhos e entre em contato.">
+  <meta name="theme-color" content="#0b0b0b">
+  <meta name="format-detection" content="telephone=no">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Barbearia Manchester">
+  <meta property="og:title" content="Barbearia Manchester | Barbearia em Joinville - SC">
+  <meta property="og:description" content="Descubra o poder de um visual impecável! Av. Getúlio Vargas, 341 — Bucarein, Joinville — SC.">
+  <meta property="og:image" content="assets/img/og-manchester.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/img/logo-manchester.png">
+
+  <link rel="preload" href="assets/fonts/anton.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/img/fachada-manchester.webp" as="image" type="image/webp">
+  <link rel="preconnect" href="https://images.unsplash.com">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script>document.documentElement.classList.add('js');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BarberShop",
+    "name": "Barbearia Manchester",
+    "slogan": "Descubra o poder de um visual impecável!",
+    "image": "assets/img/fachada-manchester.webp",
+    "telephone": "+55 47 3439-3951",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Getúlio Vargas, 341 - Bucarein",
+      "addressLocality": "Joinville",
+      "addressRegion": "SC",
+      "postalCode": "89202-205",
+      "addressCountry": "BR"
+    },
+    "sameAs": [
+      "https://www.instagram.com/barbeariamanchester/",
+      "https://www.facebook.com/61556729714867"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<!--
+  =====================================================================
+  BARBEARIA MANCHESTER — proposta de site
+  ---------------------------------------------------------------------
+  FOTOS
+  - Reais (fornecidas pela barbearia): assets/img/fachada-manchester*.webp
+    e assets/img/logo-manchester.png
+  - Todas as imagens marcadas com  data-demo  são DEMONSTRATIVAS
+    (banco de imagens). Substitua o atributo src/srcset por fotos reais
+    da Manchester antes de publicar — basta trocar o caminho.
+  - Se uma foto demonstrativa não carregar, o próprio layout exibe um
+    espaço reservado com a identidade da marca (ver main.js).
+
+  DADOS A CONFIRMAR ANTES DE PUBLICAR (procure por "CONFIRMAR"):
+  - Lista de serviços (nomes/descrições são exemplos; sem preços).
+  - Número de avaliações no Google (187+ informado na criação da proposta).
+  - Link de agendamento: hoje os botões levam à seção de contato/telefone.
+  =====================================================================
+-->
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <!-- Monograma "BM", inspirado na placa circular da fachada -->
+  <symbol id="bm" viewBox="0 0 64 64">
+    <circle cx="32" cy="32" r="30.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <circle cx="32" cy="32" r="26" fill="none" stroke="currentColor" stroke-width=".75"/>
+    <text x="32" y="40.5" text-anchor="middle" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="24" fill="currentColor" letter-spacing="-.5">BM</text>
+  </symbol>
+  <symbol id="arrow" viewBox="0 0 24 24">
+    <path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/>
+  </symbol>
+  <symbol id="arrow-ne" viewBox="0 0 24 24">
+    <path d="M7 17 17 7M8 7h9v9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/>
+  </symbol>
+</svg>
+
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- =========================== HEADER =========================== -->
+<header class="nav" id="topo">
+  <div class="nav__bar">
+    <a class="brand" href="#inicio" aria-label="Barbearia Manchester — início">
+      <svg class="brand__mark" aria-hidden="true"><use href="#bm"/></svg>
+      <span class="brand__type">
+        <span class="brand__small">Barbearia</span>
+        <span class="brand__name">Manchester</span>
+      </span>
+    </a>
+
+    <nav class="nav__links" aria-label="Principal">
+      <a href="#inicio">Início</a>
+      <a href="#a-barbearia">A Barbearia</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#avaliacoes">Avaliações</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- CONFIRMAR: trocar pelo link de agendamento oficial, se houver -->
+    <a class="btn btn--line nav__cta" href="#contato">Agendar horário</a>
+
+    <button class="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Menu mobile -->
+<div class="menu" id="menu" hidden>
+  <nav class="menu__links" aria-label="Menu">
+    <a href="#inicio"><small>01</small>Início</a>
+    <a href="#a-barbearia"><small>02</small>A Barbearia</a>
+    <a href="#servicos"><small>03</small>Serviços</a>
+    <a href="#galeria"><small>04</small>Galeria</a>
+    <a href="#avaliacoes"><small>05</small>Avaliações</a>
+    <a href="#contato"><small>06</small>Contato</a>
+  </nav>
+  <div class="menu__foot">
+    <a class="btn btn--solid" href="#contato">Agendar horário</a>
+    <a href="tel:+554734393951">(47) 3439-3951</a>
+    <a href="https://www.instagram.com/barbeariamanchester/" target="_blank" rel="noopener">@barbeariamanchester</a>
+    <p>Av. Getúlio Vargas, 341 — Bucarein<br>Joinville — SC</p>
+  </div>
+</div>
+
+<main id="conteudo">
+
+  <!-- =========================== HERO =========================== -->
+  <section class="hero" id="inicio" aria-label="Barbearia Manchester">
+    <figure class="hero__media">
+      <!-- Foto real da fachada (fornecida pela barbearia) -->
+      <img src="assets/img/fachada-manchester.webp"
+           srcset="assets/img/fachada-manchester-600.webp 600w, assets/img/fachada-manchester.webp 870w"
+           sizes="(min-width: 1024px) 62vw, 100vw"
+           width="870" height="870"
+           alt="Fachada preta da Barbearia Manchester, com o letreiro da marca e um Fusca amarelo estacionado em frente"
+           fetchpriority="high">
+    </figure>
+
+    <div class="hero__inner wrap">
+      <p class="eyebrow hero__eyebrow"><span class="eyebrow__rule"></span>Joinville / SC</p>
+
+      <h1 class="hero__title">
+        <span class="mask"><span class="hero__pre">Barbearia</span></span>
+        <span class="mask"><span class="hero__name">Manchester</span></span>
+      </h1>
+
+      <div class="hero__copy">
+        <p class="hero__slogan">Descubra o poder de um visual impecável!</p>
+        <p class="hero__lead">Estilo, personalidade e atenção aos detalhes.</p>
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="#contato">Agendar horário</a>
+          <a class="btn btn--ghost" href="#a-barbearia">Conhecer a barbearia</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__foot wrap">
+      <a class="scroll-cue" href="#manifesto" aria-label="Rolar para o conteúdo">
+        <span class="scroll-cue__line"></span>Role
+      </a>
+      <p class="hero__caption">Nossa fachada — Av. Getúlio Vargas, 341</p>
+    </div>
+  </section>
+
+  <!-- =========================== IMPACTO =========================== -->
+  <section class="manifesto" id="manifesto" aria-label="Manifesto">
+    <div class="wrap manifesto__grid">
+      <p class="tag reveal"><span class="tag__no">MCR</span>Joinville — SC</p>
+      <h2 class="manifesto__title reveal">
+        <span>Seu estilo</span>
+        <span class="manifesto__serif">começa nos</span>
+        <span>detalhes<i class="dot">.</i></span>
+      </h2>
+      <p class="manifesto__aside reveal">
+        Uma experiência pensada para quem valoriza cuidado, estilo e personalidade.
+      </p>
+    </div>
+  </section>
+
+  <!-- =========================== SOBRE =========================== -->
+  <section class="about" id="a-barbearia" aria-labelledby="about-title">
+    <div class="wrap about__grid">
+      <figure class="about__media media reveal-img" data-label="A barbearia">
+        <!-- DEMONSTRATIVA — substituir por foto real do ambiente da Manchester -->
+        <img data-demo
+             src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1100&q=70"
+             srcset="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=700&q=70 700w,
+                     https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1100&q=70 1100w"
+             sizes="(min-width: 1024px) 50vw, 100vw"
+             width="1100" height="1375" loading="lazy" decoding="async"
+             alt="Ambiente de barbearia (imagem demonstrativa)">
+        <figcaption class="media__note">Imagem ilustrativa</figcaption>
+      </figure>
+
+      <div class="about__body">
+        <p class="tag reveal"><span class="tag__no">02</span>A barbearia</p>
+        <h2 class="h-display reveal" id="about-title">
+          Mais que um corte.<br><span class="h-accent">Uma experiência.</span>
+        </h2>
+        <p class="about__text reveal">
+          A Barbearia Manchester reúne estilo e cuidado em um espaço pensado
+          para quem gosta de sair com o visual em dia.
+        </p>
+
+        <dl class="facts reveal">
+          <div><dt>Endereço</dt><dd>Av. Getúlio Vargas, 341</dd></div>
+          <div><dt>Bairro</dt><dd>Bucarein</dd></div>
+          <div><dt>Cidade</dt><dd>Joinville — SC</dd></div>
+          <div><dt>Telefone</dt><dd><a href="tel:+554734393951">(47) 3439-3951</a></dd></div>
+        </dl>
+
+        <img class="about__seal reveal" src="assets/img/logo-manchester.png" width="150" height="150"
+             loading="lazy" alt="Logotipo da Barbearia Manchester">
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== SERVIÇOS =========================== -->
+  <section class="services" id="servicos" aria-labelledby="services-title">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="tag reveal"><span class="tag__no">03</span>Serviços</p>
+        <h2 class="h-display reveal" id="services-title">O seu estilo.<br>Do seu jeito.</h2>
+        <p class="sec-head__note reveal">Serviços e valores a confirmar diretamente com a barbearia.</p>
+      </header>
+
+      <!--
+        CONFIRMAR ANTES DE PUBLICAR:
+        Serviços abaixo são EXEMPLOS DEMONSTRATIVOS. Ajuste nomes e descrições
+        conforme o catálogo real. Não há preços nem duração — adicione apenas
+        se forem informados oficialmente (use o <span class="svc__meta">).
+        Para incluir um serviço, duplique um <li class="svc">.
+      -->
+      <ol class="svc-list">
+        <li class="svc reveal">
+          <a class="svc__link" href="#contato">
+            <span class="svc__no">01</span>
+            <span class="svc__name">Corte</span>
+            <span class="svc__desc">Corte masculino com acabamento cuidadoso.</span>
+            <span class="svc__meta">Consultar <svg aria-hidden="true"><use href="#arrow"/></svg></span>
+          </a>
+        </li>
+        <li class="svc reveal">
+          <a class="svc__link" href="#contato">
+            <span class="svc__no">02</span>
+            <span class="svc__name">Barba</span>
+            <span class="svc__desc">Barba alinhada e bem cuidada.</span>
+            <span class="svc__meta">Consultar <svg aria-hidden="true"><use href="#arrow"/></svg></span>
+          </a>
+        </li>
+        <li class="svc reveal">
+          <a class="svc__link" href="#contato">
+            <span class="svc__no">03</span>
+            <span class="svc__name">Corte + Barba</span>
+            <span class="svc__desc">O visual completo em uma só visita.</span>
+            <span class="svc__meta">Consultar <svg aria-hidden="true"><use href="#arrow"/></svg></span>
+          </a>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- =========================== GALERIA =========================== -->
+  <section class="gallery" id="galeria" aria-labelledby="gallery-title">
+    <div class="wrap">
+      <header class="sec-head sec-head--split">
+        <div>
+          <p class="tag reveal"><span class="tag__no">04</span>Galeria</p>
+          <h2 class="h-display reveal" id="gallery-title">Trabalho que<br><span class="h-accent">fala por si.</span></h2>
+        </div>
+        <p class="sec-head__note reveal">Imagens demonstrativas. Espaço preparado para receber as fotos dos cortes, barbas e do ambiente da Manchester.</p>
+      </header>
+
+      <!-- DEMONSTRATIVAS — substituir cada src/srcset pela foto real correspondente -->
+      <div class="mosaic">
+        <figure class="mosaic__item m1 media reveal-img" data-label="Corte">
+          <img data-demo src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=70"
+               width="900" height="1200" loading="lazy" decoding="async" alt="Corte masculino (imagem demonstrativa)">
+          <figcaption><span>01</span>Corte</figcaption>
+        </figure>
+        <figure class="mosaic__item m2 media reveal-img" data-label="Ambiente">
+          <img data-demo src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1300&q=70"
+               width="1300" height="700" loading="lazy" decoding="async" alt="Ambiente de barbearia (imagem demonstrativa)">
+          <figcaption><span>02</span>Ambiente</figcaption>
+        </figure>
+        <figure class="mosaic__item m3 media reveal-img" data-label="Barba">
+          <img data-demo src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=70"
+               width="800" height="800" loading="lazy" decoding="async" alt="Barba sendo aparada (imagem demonstrativa)">
+          <figcaption><span>03</span>Barba</figcaption>
+        </figure>
+        <figure class="mosaic__item m4 media reveal-img" data-label="Detalhes">
+          <img data-demo src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=900&q=70"
+               width="900" height="1300" loading="lazy" decoding="async" alt="Detalhe de acabamento (imagem demonstrativa)">
+          <figcaption><span>04</span>Detalhes</figcaption>
+        </figure>
+        <figure class="mosaic__item m5 media reveal-img" data-label="Ferramentas">
+          <img data-demo src="https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?auto=format&fit=crop&w=800&q=70"
+               width="800" height="700" loading="lazy" decoding="async" alt="Ferramentas de barbeiro (imagem demonstrativa)">
+          <figcaption><span>05</span>Ferramentas</figcaption>
+        </figure>
+        <figure class="mosaic__item m6 media reveal-img" data-label="Acabamento">
+          <img data-demo src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=1100&q=70"
+               width="1100" height="700" loading="lazy" decoding="async" alt="Acabamento com máquina (imagem demonstrativa)">
+          <figcaption><span>06</span>Acabamento</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== INSTAGRAM =========================== -->
+  <section class="insta" aria-labelledby="insta-title">
+    <div class="wrap insta__grid">
+      <div class="insta__body">
+        <p class="tag reveal"><span class="tag__no">IG</span>Instagram</p>
+        <h2 class="h-display reveal" id="insta-title">Acompanhe<br>o trabalho.</h2>
+        <p class="insta__text reveal">Veja os cortes, detalhes e novidades da Barbearia Manchester.</p>
+        <a class="btn btn--solid reveal" href="https://www.instagram.com/barbeariamanchester/" target="_blank" rel="noopener">
+          @barbeariamanchester <svg aria-hidden="true"><use href="#arrow-ne"/></svg>
+        </a>
+      </div>
+
+      <!--
+        Feed visual (estático). Substituir as imagens pelas publicações reais
+        ou por um widget oficial do Instagram, se desejado.
+      -->
+      <ul class="feed" aria-label="Publicações do Instagram">
+        <li><a class="feed__tile media" data-label="Fachada" href="https://www.instagram.com/barbeariamanchester/" target="_blank" rel="noopener">
+          <img src="assets/img/fachada-manchester-600.webp" width="600" height="600" loading="lazy" decoding="async" alt="Fachada da Barbearia Manchester">
+          <span class="feed__hover">Ver no Instagram</span></a></li>
+        <li><a class="feed__tile media" data-label="Corte" href="https://www.instagram.com/barbeariamanchester/" target="_blank" rel="noopener">
+          <img data-demo src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=600&h=600&q=65" width="600" height="600" loading="lazy" decoding="async" alt="Corte (imagem demonstrativa)">
+          <span class="feed__hover">Ver no Instagram</span></a></li>
+        <li><a class="feed__tile media" data-label="Barba" href="https://www.instagram.com/barbeariamanchester/" target="_blank" rel="noopener">
+          <img data-demo src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=600&h=600&q=65" width="600" height="600" loading="lazy" decoding="async" alt="Barba (imagem demonstrativa)">
+          <span class="feed__hover">Ver no Instagram</span></a></li>
+        <li><a class="feed__tile media" data-label="Ferramentas" href="https://www.instagram.com/barbeariamanchester/" target="_blank" rel="noopener">
+          <img data-demo src="https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?auto=format&fit=crop&w=600&h=600&q=65" width="600" height="600" loading="lazy" decoding="async" alt="Ferramentas (imagem demonstrativa)">
+          <span class="feed__hover">Ver no Instagram</span></a></li>
+        <li><a class="feed__tile media" data-label="Ambiente" href="https://www.instagram.com/barbeariamanchester/" target="_blank" rel="noopener">
+          <img data-demo src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=600&h=600&q=65" width="600" height="600" loading="lazy" decoding="async" alt="Ambiente (imagem demonstrativa)">
+          <span class="feed__hover">Ver no Instagram</span></a></li>
+        <li><a class="feed__tile media" data-label="Corte" href="https://www.instagram.com/barbeariamanchester/" target="_blank" rel="noopener">
+          <img data-demo src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=600&h=600&q=65" width="600" height="600" loading="lazy" decoding="async" alt="Corte (imagem demonstrativa)">
+          <span class="feed__hover">Ver no Instagram</span></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- =========================== AVALIAÇÕES =========================== -->
+  <section class="reviews" id="avaliacoes" aria-labelledby="reviews-title">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="tag reveal"><span class="tag__no">05</span>Avaliações</p>
+        <h2 class="h-display reveal" id="reviews-title">Quem conhece,<br><span class="h-accent">comenta.</span></h2>
+      </header>
+
+      <!-- Depoimentos reais, reproduzidos na íntegra. Não editar o conteúdo. -->
+      <div class="quotes">
+        <figure class="quote q1 reveal">
+          <span class="quote__no" aria-hidden="true">“</span>
+          <blockquote><p>Ambiente muito legal, ótimos profissionais, João fez um trabalho da hora<span class="emo">👏✌️</span></p></blockquote>
+          <figcaption>Avaliação de cliente</figcaption>
+        </figure>
+        <figure class="quote q2 reveal">
+          <span class="quote__no" aria-hidden="true">“</span>
+          <blockquote><p>Experiência top, lugar show... recomendadíssimo!!!</p></blockquote>
+          <figcaption>Avaliação de cliente</figcaption>
+        </figure>
+        <figure class="quote q3 reveal">
+          <span class="quote__no" aria-hidden="true">“</span>
+          <blockquote><p>Eu corto com o Mairon, que acertou demais no meu cabelo e não troco mais<span class="emo">🙏🏻</span></p></blockquote>
+          <figcaption>Avaliação de cliente</figcaption>
+        </figure>
+      </div>
+
+      <!--
+        BLOCO DE CONFIANÇA
+        CONFIRMAR: "187+" foi o total de avaliações no Google informado na
+        criação da proposta (set/2026). Atualizar antes de publicar.
+      -->
+      <div class="trust reveal">
+        <div class="trust__cell">
+          <span class="trust__k">Barbearia</span>
+          <span class="trust__v">Manchester</span>
+        </div>
+        <div class="trust__cell">
+          <span class="trust__k">Endereço</span>
+          <span class="trust__v">Joinville — SC</span>
+        </div>
+        <div class="trust__cell trust__cell--num">
+          <span class="trust__big">187<i>+</i></span>
+          <span class="trust__k">avaliações no Google</span>
+        </div>
+        <a class="link-u trust__link" href="https://www.google.com/maps/search/?api=1&query=Barbearia+Manchester+Av.+Get%C3%BAlio+Vargas+341+Joinville+SC" target="_blank" rel="noopener">
+          Ver avaliações no Google <svg aria-hidden="true"><use href="#arrow-ne"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== LOCALIZAÇÃO =========================== -->
+  <section class="visit" id="contato" aria-labelledby="visit-title">
+    <div class="wrap visit__grid">
+      <div class="visit__body">
+        <p class="tag reveal"><span class="tag__no">06</span>Localização &amp; contato</p>
+        <h2 class="h-display reveal" id="visit-title">Encontre a<br>Manchester.</h2>
+
+        <address class="visit__addr reveal">
+          <span class="visit__street">Av. Getúlio Vargas, 341</span>
+          <span>Bucarein</span>
+          <span>Joinville — SC</span>
+          <span>89202-205</span>
+        </address>
+
+        <a class="visit__phone reveal" href="tel:+554734393951">
+          <span class="visit__label">Telefone</span>
+          (47) 3439-3951
+        </a>
+
+        <div class="visit__actions reveal">
+          <a class="btn btn--dark" href="https://www.google.com/maps/search/?api=1&query=Barbearia+Manchester+Av.+Get%C3%BAlio+Vargas+341+Joinville+SC" target="_blank" rel="noopener">
+            Ver no mapa <svg aria-hidden="true"><use href="#arrow-ne"/></svg>
+          </a>
+          <a class="btn btn--line-dark" href="tel:+554734393951">Ligar agora</a>
+        </div>
+      </div>
+
+      <div class="visit__map reveal">
+        <iframe title="Mapa — Barbearia Manchester, Av. Getúlio Vargas, 341, Joinville"
+                src="https://www.google.com/maps?q=Barbearia%20Manchester%2C%20Av.%20Get%C3%BAlio%20Vargas%2C%20341%20-%20Bucarein%2C%20Joinville%20-%20SC%2C%2089202-205&output=embed"
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <figure class="visit__facade">
+          <img src="assets/img/fachada-manchester-600.webp" width="600" height="600" loading="lazy" decoding="async"
+               alt="Fachada da Barbearia Manchester">
+          <figcaption>Procure a fachada preta</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== CTA FINAL =========================== -->
+  <section class="finale" aria-labelledby="finale-title">
+    <div class="wrap finale__inner">
+      <svg class="finale__mark reveal" aria-hidden="true"><use href="#bm"/></svg>
+      <h2 class="finale__title reveal" id="finale-title">Pronto para<br>mudar o visual<span class="dot">?</span></h2>
+      <p class="finale__text reveal">Descubra a Barbearia Manchester.</p>
+      <div class="finale__actions reveal">
+        <a class="btn btn--solid" href="tel:+554734393951">Entrar em contato</a>
+        <a class="btn btn--ghost" href="https://www.instagram.com/barbeariamanchester/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- =========================== FOOTER =========================== -->
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div class="footer__brand">
+      <a class="brand" href="#inicio" aria-label="Barbearia Manchester — voltar ao topo">
+        <svg class="brand__mark" aria-hidden="true"><use href="#bm"/></svg>
+        <span class="brand__type">
+          <span class="brand__small">Barbearia</span>
+          <span class="brand__name">Manchester</span>
+        </span>
+      </a>
+      <p class="footer__slogan">Descubra o poder de um visual impecável!</p>
+    </div>
+
+    <nav class="footer__links" aria-label="Redes e contato">
+      <a class="link-u" href="https://www.instagram.com/barbeariamanchester/" target="_blank" rel="noopener">Instagram</a>
+      <a class="link-u" href="https://www.facebook.com/61556729714867" target="_blank" rel="noopener">Facebook</a>
+      <a class="link-u" href="https://www.google.com/maps/search/?api=1&query=Barbearia+Manchester+Av.+Get%C3%BAlio+Vargas+341+Joinville+SC" target="_blank" rel="noopener">Google Maps</a>
+      <a class="link-u" href="tel:+554734393951">(47) 3439-3951</a>
+    </nav>
+
+    <address class="footer__addr">
+      Av. Getúlio Vargas, 341 — Bucarein,<br>Joinville — SC, 89202-205
+    </address>
+  </div>
+  <div class="wrap footer__base">
+    <p>© 2026 Barbearia Manchester.</p>
+    <p>Joinville / SC</p>
+  </div>
+</footer>
+
+<!-- Barra de contato rápido (somente celular) -->
+<div class="quickbar" aria-label="Contato rápido">
+  <a href="tel:+554734393951">Ligar agora</a>
+  <a href="https://www.google.com/maps/search/?api=1&query=Barbearia+Manchester+Av.+Get%C3%BAlio+Vargas+341+Joinville+SC" target="_blank" rel="noopener">Como chegar</a>
+</div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
